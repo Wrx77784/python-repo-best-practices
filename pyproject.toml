@@ -1,0 +1,12 @@
+[tool.black]
+line-length = 88
+target-version = ['py312']
+include = '\.pyi?$'
+
+[tool.pylint.FORMAT]
+max-line-length = 88
+
+[tool.pylint.MASTER]
+disable = [
+    "C0114",
+]
