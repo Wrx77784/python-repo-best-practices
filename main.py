@@ -1,6 +1,7 @@
 import sys
 from app.core import dodaj_liczby
 
+
 def main() -> None:
     print("--- Prosty program kalkulatora ---")
     try:
@@ -11,6 +12,7 @@ def main() -> None:
     except ValueError:
         print("Błąd: Musisz podać liczby całkowite!", file=sys.stderr)
         sys.exit(1)
+
 
 if __name__ == "__main__":
     main()
